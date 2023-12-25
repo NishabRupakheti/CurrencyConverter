@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+.container{
+    width: 60%;
+    margin: auto;
+    font-family: 'Diphylleia', serif;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.top-text{
+    width: 9em;
+    letter-spacing: 1.3px;
+    font-size: 1.7em;
+    font-family: 'Dosis', sans-serif;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.table{
+    width: 70%;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.valuePlaceholder{
+    border: 1px solid;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 12px;
+    margin: 0 2rem;
+    border-radius: 4px;
+    background-color: aqua;
+    height: 20px;
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    padding: 15px;
+    
+}
+
+.row{
+    display: block;
+    padding: 0.7rem;
+}
+
+.select-items{
+    padding: 3px;
+    font-size: 1rem;
+}
+
+.secondinfocomponent{
+    width: 70%;
+    margin: 1rem auto;
+    display: flex;
+    margin-top: 3vh;
+}
+
+.subcontainer{
+    border-radius: 12px;
+    margin: 5px;
+    border: 2px solid ;
+    text-align: center;
+    padding: 2rem;
+    width: 50%;
+}
+
